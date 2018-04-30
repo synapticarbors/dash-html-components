@@ -6,10 +6,6 @@ const Ol = (props) => {
     return (
         <ol
             onClick={() => {
-                /* eslint-disable */
-                console.log('click: ', props);
-                /* eslint-enable */
-
                 if (props.setProps) {
                     const newProps = {
                         n_clicks: props.n_clicks + 1
@@ -17,9 +13,6 @@ const Ol = (props) => {
                     if (newProps.n_clicks > 1) {
                         newProps.n_clicks_previous = props.n_clicks_previous + 1;
                     }
-                    /* eslint-disable */
-                    console.log('newProps: ', newProps);
-                    /* eslint-enable */
                     props.setProps(newProps);
                 }
                 if (props.fireEvent) props.fireEvent({event: 'click'});

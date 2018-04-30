@@ -31,15 +31,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -277,15 +277,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -467,15 +467,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -657,15 +657,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -847,15 +847,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -1109,15 +1109,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -1299,15 +1299,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -1489,15 +1489,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -1735,15 +1735,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -1925,15 +1925,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -2131,15 +2131,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -2321,15 +2321,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -2511,15 +2511,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -2701,15 +2701,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -2891,15 +2891,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -3081,15 +3081,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -3279,15 +3279,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -3469,15 +3469,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -3715,15 +3715,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -3921,15 +3921,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -4111,15 +4111,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -4301,15 +4301,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -4491,15 +4491,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -4681,15 +4681,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -4879,15 +4879,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -5077,15 +5077,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -5307,15 +5307,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -5497,15 +5497,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -5687,15 +5687,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -5877,15 +5877,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -6067,15 +6067,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -6273,15 +6273,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -6471,15 +6471,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -6661,15 +6661,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -6851,15 +6851,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -7041,15 +7041,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -7231,15 +7231,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -7421,15 +7421,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -7611,15 +7611,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -7801,15 +7801,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -8023,15 +8023,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -8237,15 +8237,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -8427,15 +8427,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -8617,15 +8617,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -8807,15 +8807,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -8997,15 +8997,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -9259,15 +9259,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -9449,15 +9449,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -9639,15 +9639,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -9829,15 +9829,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -10019,15 +10019,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -10209,15 +10209,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -10399,15 +10399,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -10589,15 +10589,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -10779,15 +10779,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -10969,15 +10969,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -11159,15 +11159,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -11349,15 +11349,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -11539,15 +11539,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -11785,15 +11785,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -12039,15 +12039,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -12245,15 +12245,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -12435,15 +12435,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -12625,15 +12625,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -12863,15 +12863,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -13069,15 +13069,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -13259,15 +13259,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -13457,15 +13457,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -13703,15 +13703,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -13893,15 +13893,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -14083,15 +14083,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -14281,15 +14281,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -14471,15 +14471,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -14669,15 +14669,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -14891,15 +14891,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -15137,15 +15137,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -15327,15 +15327,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -15517,15 +15517,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -15707,15 +15707,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -15897,15 +15897,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -16087,15 +16087,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -16325,15 +16325,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -16531,15 +16531,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -16729,15 +16729,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -16943,15 +16943,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -17157,15 +17157,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -17347,15 +17347,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -17553,15 +17553,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -17743,15 +17743,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -17933,15 +17933,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -18123,15 +18123,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -18337,15 +18337,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -18535,15 +18535,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -18725,15 +18725,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -18915,15 +18915,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -19105,15 +19105,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -19295,15 +19295,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -19485,15 +19485,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -19675,15 +19675,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -19921,15 +19921,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -20111,15 +20111,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -20357,15 +20357,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -20547,15 +20547,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -20737,15 +20737,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -20927,15 +20927,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -21149,15 +21149,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -21339,15 +21339,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -21529,15 +21529,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -21719,15 +21719,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -21909,15 +21909,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -22099,15 +22099,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -22289,15 +22289,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -22479,15 +22479,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -22677,15 +22677,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -22867,15 +22867,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -23081,15 +23081,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -23271,15 +23271,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -23565,15 +23565,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -23755,15 +23755,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -23977,15 +23977,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -24167,15 +24167,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -24365,15 +24365,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -24555,15 +24555,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -24745,15 +24745,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -24975,15 +24975,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -25165,15 +25165,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -25355,15 +25355,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -25545,15 +25545,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -25815,15 +25815,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
@@ -26005,15 +26005,15 @@
           "computed": false
         }
       },
-      "n_clicks_previous": {
+      "n_clicks_timestamp": {
         "type": {
           "name": "custom",
           "raw": "PropTypes.integer"
         },
         "required": false,
-        "description": "An integer that represents the number of times\nthat this element was clicked on. If this is the same as\n`n_clicks`, then the button wasn't clicked on.\nIf it is less than `n_clicks`, then the button\nwas clicked on. This is useful in callbacks that have\nmultiple buttons and you need to know _which_ button\nwas clicked on.",
+        "description": "An integer that represents the time (in ms since 1970)\nat which n_clicks changed. This can be used to tell\nwhich button was changed most recently.",
         "defaultValue": {
-          "value": "0",
+          "value": "-1",
           "computed": false
         }
       },
